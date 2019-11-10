@@ -8,4 +8,4 @@ RUN apt-get update && apt-get install -y -q nginx
 COPY ./index.html /usr/share/nginx/html/
 
 #Step:4 Nginx start
-CMD ["nginx', "-g", "demon off;"]
+CMD ["nginx", "-g", "demon off;"]
