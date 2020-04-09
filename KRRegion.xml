@@ -1,0 +1,25 @@
+<gs:GlobalizationServices xmlns:gs="urn:longhornGlobalizationUnattend"> 
+<!--User List-->
+<gs:UserList>
+    <gs:User UserID="Current" CopySettingsToDefaultUserAcct="true" CopySettingsToSystemAcct="true"/> 
+</gs:UserList>
+<!-- user locale -->
+<gs:UserLocale> 
+    <gs:Locale Name="ko-KR" SetAsCurrent="true"/> 
+</gs:UserLocale>
+<!-- system locale -->
+<gs:SystemLocale Name="ko-KR"/>
+<!-- GeoID -->
+<gs:LocationPreferences> 
+    <gs:GeoID Value="134"/> 
+</gs:LocationPreferences>
+<gs:MUILanguagePreferences>
+	<gs:MUILanguage Value="ko-KR"/>
+	<gs:MUIFallback Value="en-US"/>
+</gs:MUILanguagePreferences>
+<!-- input preferences -->
+<gs:InputPreferences>
+    <!--ko-KR-->
+    <gs:InputLanguageID Action="add" ID=" 0412:{A028AE76-01B1-46C2-99C4-ACD9858AE02F}{B5FE1F02-D5F2-4445-9C03-C568F23C99A1}" Default="true"/> 
+</gs:InputPreferences>
+</gs:GlobalizationServices>
